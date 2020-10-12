@@ -1,3 +1,3 @@
-    <template>
-      <h1>Create Event</h1>
-    </template>
+<template>
+  <h1>Create Event</h1>
+</template>

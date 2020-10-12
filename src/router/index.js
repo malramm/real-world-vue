@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import EventList from '../views/EventList.vue'
-import EventShow from '../views/EventShow.vue'
-import EventCreate from '../views/EventCreate.vue'
+import EventList from "../views/EventList.vue";
+import EventShow from "../views/EventShow.vue";
+import EventCreate from "../views/EventCreate.vue";
 
 Vue.use(VueRouter);
 
@@ -13,13 +13,13 @@ const routes = [
     component: EventList
   },
   {
-    path: '/event/create',
-    name: 'event-create',
+    path: "/event/create",
+    name: "event-create",
     component: EventCreate
   },
   {
-    path: '/event/:id',
-    name: 'event-show',
+    path: "/event/:id",
+    name: "event-show",
     component: EventShow,
     props: true
   },
@@ -35,7 +35,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   routes
 });
 
